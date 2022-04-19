@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAX 3
 void Solicitar_letras(char arr[MAX]);
-char BuscarBinarioRecursivo(char arr[MAX], int obj, int fin,  int inicio);
+char BuscarBinarioRecursivo(char arr[MAX], int letra_Abuscar, int fin,  int inicio);
 int main()
 {
     char arr[MAX];
